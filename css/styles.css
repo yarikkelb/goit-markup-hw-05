@@ -555,5 +555,7 @@ background-color: var(--hover-focus);
     fill: var(--section-team-background);
 }
 
-
+<!----Modal---->
+.backdrop
+    position: fi
 
