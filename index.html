@@ -24,7 +24,7 @@
         <nav class="header-nav">
             <a class="header-logo link" href="./portfolio.html">Web<span class="header-span">Studio</span></a>
             <ul class="header-list list">                
-                <li class = "header-item"><a class="header-button link" href="./index.html">Studio</a></li>
+                <li class = "header-item"><a class="header-button strip link" href="./index.html">Studio</a></li>
                 <li class = "header-item"><a class="header-button link" href="./portfolio.html">Portfolio</a></li>
                 <li class = "header-item"><a class="header-button link" href="">Contacts</a></li>
             </ul>
@@ -41,7 +41,7 @@
         <section class="hero">
             <div class="container">
             <h1 class="hero-title">Effective Solutions for Your Business</h1>
-            <button class="hero-btn" type="button">Order Service</button>
+            <button class="hero-btn" data-modal-open type="button">Order Service</button>
            
         </div>
         </section>
@@ -342,19 +342,18 @@
     </footer>
 
 <!-- ------------Modal-->
-<button data-modal-open>open</button>
-<div class="backdrop is-hidden" data-modal="">
+
+<div class="backdrop is-hidden" data-modal>
     <div class="modal">
-        <button type="button" class="modal-close-btn" data-modal-close="">
+        <button class="modal-close" data-modal-close>
             <svg class="modal-close-icon" width="8" height="8">
                 <use href="./images/symbol-defs.svg#icon-close-black-18dp-2-1"> </use>
             </svg>
         </button>
-<button data-modal-close>close</button>
     </div>
 </div>
 
-    <script src="./js/modal.js"></script>
+<script src="./js/modal.js"></script>
 </body>
 
 </html>
