@@ -113,6 +113,7 @@ body{
     padding: 24px 0;
     display: block;
     position: relative;
+    
 }
 .header-button:hover {
     color: var(--hover-focus);
@@ -122,14 +123,17 @@ body{
 }
 .header-button::after{
     position: absolute;
-    width: 48px;
-    height: 4px;
-    left: 0px;
-    top: 48px;
-    border-radius: 2px;
+    
 }
 .strip::after{
+    content: "";
+    display: block;
     background: #404BBF;
+    width: 100%;
+    height: 4px;
+    left: 0;
+    
+    border-radius: 2px;
     
     
 }
@@ -147,6 +151,7 @@ body{
 }
 .header-email:hover {
     color: var(--hover-focus);
+
 }
 .header-email:focus {
     color: var(--hover-focus)
