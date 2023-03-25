@@ -654,5 +654,6 @@ background-color: var(--hover-focus);
     border-radius: 50%;
 }
 .modal-close:is(:hover, :focus){
-    background-color: var(--hover-focus);  
+    background-color: var(--hover-focus);
+    color: var(--main-btn-color);  
 }
