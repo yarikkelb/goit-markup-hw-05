@@ -593,7 +593,7 @@ background-color: var(--hover-focus);
     fill: var(--section-team-background);
 }
 
-<!----Modal---
+/**-----Modal---------*/
 .backdrop{
     position: fixed;
     top: 0;
